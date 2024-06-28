@@ -1,0 +1,119 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Uncomment the .vscode folder if you want to exclude VS Code settings
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+# Exclude the build directory as it contains compiled files that can be regenerated
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Exclude generated files for iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/.symlinks/
+ios/Pods/
+ios/Podfile.lock
+ios/.generated/
+
+# Additional Android artifacts
+android/.gradle/
+android/.idea/
+android/.build/
+android/app/.externalNativeBuild/
+android/app/build/
+android/local.properties
+android/app/src/debug/
+android/app/src/profile/
+android/app/src/release/
+android/.settings/
+android/.classpath
+android/.project
+android/gradle/wrapper/gradle-wrapper.jar
+android/.mvn/
+android/gradle/wrapper/gradle-wrapper.properties
+.android/
+.gradle/
+
+# Flutter dependencies and configurations
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter/
+
+# macOS specific
+macos/Pods/
+macos/.symlinks/
+macos/Flutter/Flutter-Debug.xcconfig
+macos/Flutter/Flutter-Release.xcconfig
+macos/Flutter/Generated.xcconfig
+macos/Flutter/ephemeral/
+macos/Flutter/App.framework
+macos/.generated/
+
+# Linux specific
+linux/.flutter-plugins
+linux/.flutter-plugins-dependencies
+linux/.packages
+linux/.dart_tool
+linux/.build
+linux/Flutter/generated_plugin_registrant.dart
+
+# Windows specific
+windows/.flutter-plugins
+windows/.flutter-plugins-dependencies
+windows/.packages
+windows/.dart_tool
+windows/.build
+windows/Flutter/generated_plugin_registrant.dart
+
+# Web specific
+web/.dart_tool
+web/.flutter-plugins
+web/.flutter-plugins-dependencies
+web/.packages
+web/.build
+web/flutter.js
+
+# Temp files
+tmp/
+temp/
+*.tmp
+
+# User-specific files
+*.user
+*.userprefs
